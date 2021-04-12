@@ -1,0 +1,9 @@
+.taskList{
+  background-color: var(--blanco);
+  width: calc(var(--cube) * 22);
+  .btn{
+    font-size: calc(var(--cube) * 1.2);
+    color: var(--gris-oscuro);
+    opacity: 0.5;
+  }
+}

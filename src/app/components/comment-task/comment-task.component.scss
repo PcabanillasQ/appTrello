@@ -1,0 +1,6 @@
+img{
+  display: block;
+  width: calc(var(--cube)*2);
+  height: calc(var(--cube)*2);
+  object-fit: cover;
+}

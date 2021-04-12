@@ -1,0 +1,21 @@
+.basicForm{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: var(--blanco);
+  padding: calc(var(--cube) * 2 );
+
+  input, .btn{
+    font-size: calc(var(--cube)*1.6);
+  }
+  input{
+    padding: calc(var(--cube) * 2.2);
+    background-color: var(--gris);
+  }
+  .btn{
+    padding: calc(var(--cube) * 0.8);
+    font-weight: bold; }
+
+}

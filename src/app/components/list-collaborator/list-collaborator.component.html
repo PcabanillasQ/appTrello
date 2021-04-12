@@ -1,0 +1,8 @@
+<div class="collaborator">
+  <span *ngIf="showAdd" class="add" (click)="addCollaborator()">
+    <img src="./../../../assets/plus.svg" alt="">
+  </span>
+  <span *ngFor="let collaborator of collaborators">
+    <img [src]="collaborator.imgURL" [alt]="collaborator.name">
+  </span>
+</div>

@@ -1,0 +1,21 @@
+@import "./../sass/variables";
+
+.wrapper{
+  width: var(--width);
+  min-height: 100vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--bg);
+  font-size: calc(var(--cube) * 1.4);
+  @media (max-width: $width){
+    left: 0;
+    transform: none;
+    width: 100%;
+  }
+}
+
+
+
+
+

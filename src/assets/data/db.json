@@ -1,0 +1,68 @@
+{
+  "boards":[
+    {
+      "id":1,
+      "iduser":1,
+      "collaborator":[
+        {"id":1, "name":"Pabel", "imgURL":"https://cdn.superaficionados.com/imagenes/image-465-cke.jpg" },
+        {"id":2, "name":"Jhon", "imgURL":"https://cdn.superaficionados.com/imagenes/image-465-cke.jpg" }
+      ],
+      "title":"Todo for today 1"
+    },
+    {
+      "id":2,
+      "iduser":1,
+      "collaborator":[
+        {"id":1, "name":"Pabel", "imgURL":"https://cdn.superaficionados.com/imagenes/image-465-cke.jpg" },
+        {"id":2, "name":"Jhon", "imgURL":"https://cdn.superaficionados.com/imagenes/image-465-cke.jpg" }
+      ],
+      "title":"Todo for today 2"
+    },
+    {
+      "id":3,
+      "iduser":2,
+      "collaborator":[
+        {"id":1, "name":"Pabel", "imgURL":"https://cdn.superaficionados.com/imagenes/image-465-cke.jpg" },
+        {"id":2, "name":"Jhon", "imgURL":"https://cdn.superaficionados.com/imagenes/image-465-cke.jpg" }
+      ],
+      "title":"Todo for today 3"
+    }
+  ],
+  "lists":[
+    {
+      "id":1,
+      "idBoard":1,
+      "title": "toDo",
+      "tasks":[
+        {
+          "title":"Add social netWorks",
+          "description":"Hacer esto",
+          "cometary":[
+            { "idUser":1, "detail":"Comentario 1 Tarea 1" },
+            { "idUser":2, "detail":"Comentario 2 Tarea 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id":2,
+      "idBoard":1,
+      "title": "toDo1",
+      "tasks":[
+        {
+          "title":"Lorem 1",
+          "description":"Hacer esto",
+          "cometary":[
+            { "idUser":1, "detail":"Comentario 1 Tarea 1" },
+            { "idUser":2, "detail":"Comentario 2 Tarea 1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "users":[
+    { "id":1, "name":"Pabel", "lastName":"Cabanillas", "email":"pabel17@gmail.com" },
+    { "id":2, "name":"Jhon ", "lastName":"Doe", "email":"jhon@gmail.com" },
+    { "id":3, "name":"Jane ", "lastName":"Doe", "email":"jane@gmail.com" }
+  ]
+}

@@ -1,0 +1,33 @@
+.formTask{
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  padding: var(--cube);
+
+  .content{
+    padding: var(--cube);
+    background-color: var(--blanco);
+  }
+
+  .modal-header { border-bottom: 0; }
+
+  input, textarea{ background-color: var(--gris); font-size: calc(var(--cube)*1.4); }
+
+  .description{
+    .listTag .badge{
+      margin-right: calc(var(--cube) * 0.5 );
+      opacity: 0.5;
+    }
+  }
+
+  .comments{
+    img{
+      display: block;
+      width: calc(var(--cube)*2);
+      height: calc(var(--cube)*2);
+      object-fit: cover;
+    }
+  }
+}

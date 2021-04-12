@@ -1,0 +1,26 @@
+<div class="col-12">
+  <app-basic-form *ngIf="show"
+    (sendList)="createList($event)"
+  ></app-basic-form>
+</div>
+<div class="col-12">
+  <h2>{{myBoard.title}}</h2>
+  <app-list-collaborator
+    [showAdd]="showBtnAdd"
+    [data]="dataCollaborator">
+  </app-list-collaborator>
+
+</div>
+<div class="col-12 d-flex mt-4">
+  <button class="btn btn-primary mr-2"
+    (click)="show=!show">
+      <img src="./../../../assets/plus.svg">
+  </button>
+  <div class="list">
+    <app-task-list *ngFor="let list of lists"
+      [data]="list"
+      (dataListForm)="createTask($event)"
+      >
+    </app-task-list>
+  </div>
+</div>

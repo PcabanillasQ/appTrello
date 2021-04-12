@@ -1,0 +1,9 @@
+<div class="basicForm shadow">
+    <input [type]="user? 'email': 'text'" class="form-control" aria-describedby="emailHelp" [placeholder]="user? 'jhonDoe@gmail.com':'Type name of list'"
+        [(ngModel)]="list.title"
+    />  
+    <button class="btn mt-3 btn-primary btn-block"
+        (click)="createList($event)"
+    >{{user? 'Send Invitación': 'Create list'}}  </button>
+</div>
+

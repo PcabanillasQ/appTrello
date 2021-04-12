@@ -1,0 +1,8 @@
+<div class="card" (click)="goBoard(board.id)">
+  <div class="card-body">
+    <h5 class="card-title">{{board.title}}</h5>
+    <div class="collaborator">
+    <app-list-collaborator [showAdd]="showBtnAdd" [data]="dataCollaborator"></app-list-collaborator>
+    </div>
+  </div>
+</div>

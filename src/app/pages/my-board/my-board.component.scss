@@ -1,0 +1,23 @@
+app-task-list{
+  margin-right: calc(var(--cube) * 0.5);
+}
+
+.list{
+  display: flex;
+  white-space: nowrap;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+}
+
+.btn-primary{
+  height: calc(var(--cube) * 14 );
+}
+.btn-primary,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary.focus, .btn-primary:focus{
+  background-color: var(--verde);
+  border-color: var(--verde);
+}
+

@@ -1,0 +1,23 @@
+:root{
+  --prime: var(--azul);
+  --second:var(--blanco);
+  --text-prime:var(--azul);
+  --text-second:var(--blanco);
+  --text: var(--gris-oscuro);
+
+  // Colors
+  --azul:#4D2DD9;
+  --blanco:#FFFFFF;
+  --gris: #00000029;
+  --gris-oscuro: #333333;
+  --verde:#63E6C3;
+  --azul-oscuro:#598AB9;
+
+  --bg: var(--prime);
+
+  // Medidas
+  --width: 510px;
+  --cube: 1rem;
+}
+
+$width:610px;

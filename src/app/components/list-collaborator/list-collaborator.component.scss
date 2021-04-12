@@ -1,0 +1,21 @@
+.collaborator{
+  margin-top: var(--cube);
+  display: flex;
+  flex-direction: row;
+
+  span ~ span{ margin-left: calc(var(--cube) * 0.5); }
+  span{
+    display: block;
+    width: calc(var(--cube) * 2.5);
+    height: calc(var(--cube) * 2.5);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-radius: calc(var(--cube) * 1.5);
+
+    img{  display: block; width: 100%; height: 100%; object-fit: cover;}
+  }
+  .add{ background-color: var(--azul-oscuro); display: flex; justify-content: center; align-items: center;
+    img{width: 50%; height: 50%;}
+  }
+}

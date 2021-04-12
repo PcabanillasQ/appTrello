@@ -1,0 +1,17 @@
+<app-form-task
+  *ngIf="showFormTaks"
+  (closeForm)="closeForm($event)"
+  (sendTask)="createTask($event)"
+  [dataTask]="editTask"
+  ></app-form-task>
+<div class="taskList p-3 rounded">
+  <h3>{{list.title}}</h3>
+  <div class="content">
+    <app-task *ngFor="let task of list.tasks"
+      (click)="updateTask(task)"
+      (sendTask)="createTask($event)"
+      [data]="task"></app-task>
+  </div>
+  <button class="btn btn-block btn-light"
+    (click)="showFormTaks=true"> + add new task</button>
+</div>

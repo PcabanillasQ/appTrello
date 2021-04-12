@@ -1,0 +1,36 @@
+.card {
+  width: calc(var(--cube) * 15);
+  height: calc(var(--cube) * 15);
+  display:inline-flex;
+  white-space: normal;
+  border-radius: var(--cube);
+  margin-right: var(--cube);
+  cursor: pointer;
+
+  &-title{
+    font-size: calc(var(--cube)*2.2);
+    color: var(--gris);
+    font-weight: bold;
+  }
+  .collaborator{
+    margin-top: var(--cube);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: calc(var(--cube)*1.25);
+
+    span ~ span{ margin-left: calc(var(--cube) * 0.5); }
+    span{
+      display: block;
+      width: calc(var(--cube) * 2.5);
+      height: calc(var(--cube) * 2.5);
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      border-radius: calc(var(--cube) * 1.5);
+
+      img{  display: block; width: 100%; height: 100%; object-fit: cover;}
+    }
+  }
+}
+

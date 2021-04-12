@@ -1,0 +1,7 @@
+.boards{
+  white-space: nowrap;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+}
