@@ -1,0 +1,197 @@
+{
+  "boards": [
+    {
+      "id": 1,
+      "idUser": 1,
+      "collaborator": [
+        {
+          "id": 1,
+          "name": "Pabel",
+          "imgURL": "https://cdn.superaficionados.com/imagenes/image-465-cke.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Jhon",
+          "imgURL": "https://cdn.superaficionados.com/imagenes/6-sasuke-uchiha-ambidiestro-cke.jpg"
+        }
+      ],
+      "title": "Todo for today 1"
+    },
+    {
+      "id": 2,
+      "idUser": 1,
+      "collaborator": [
+        {
+          "id": 1,
+          "name": "Pabel",
+          "imgURL": "https://cdn.superaficionados.com/imagenes/image-465-cke.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Jhon",
+          "imgURL": "https://cdn.superaficionados.com/imagenes/6-sasuke-uchiha-ambidiestro-cke.jpg"
+        }
+      ],
+      "title": "Todo for today 2"
+    },
+    {
+      "id": 3,
+      "idUser": 2,
+      "collaborator": [
+        {
+          "id": 2,
+          "name": "Jhon",
+          "imgURL": "https://cdn.superaficionados.com/imagenes/6-sasuke-uchiha-ambidiestro-cke.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Jane",
+          "imgURL": "https://i.pinimg.com/originals/39/62/55/39625575099d95c8c304b73e5fa6600a.jpg"
+        }
+      ],
+      "title": "Todo for today 3"
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "idBoard": 1,
+      "title": "Lunes",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Bocetear",
+          "description": "Lapiz y papel",
+          "commentary": [
+            {
+              "idUser": 1,
+              "detail": "Comentario 1 Tarea 4"
+            },
+            {
+              "idUser": 2,
+              "detail": "Comentario 2 Tarea 4"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "id": 2,
+          "title": "Diseñar",
+          "description": "Diseñar en Adobe XD",
+          "commentary": [
+            {
+              "idUser": 1,
+              "detail": "sdddds"
+            }
+          ],
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "idBoard": 2,
+      "title": "toDo3",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Lorem 11",
+          "description": "Hacer esto 11",
+          "commentary": [
+            {
+              "idUser": 1,
+              "detail": "Comentario 1 Tarea 1"
+            },
+            {
+              "idUser": 2,
+              "detail": "Comentario 2 Tarea 1"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "id": 2,
+          "title": "Lorem 12",
+          "description": "Hacer esto 12",
+          "commentary": [
+            {
+              "idUser": 1,
+              "detail": "Comentario 1 Tarea 1"
+            },
+            {
+              "idUser": 2,
+              "detail": "Comentario 2 Tarea 1"
+            }
+          ],
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "idBoard": 1,
+      "title": "Martes",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Diseñar Web Gabymar",
+          "description": "en adobe XD",
+          "commentary": [
+            {
+              "idUser": 1,
+              "detail": "plazo 24 horas"
+            }
+          ],
+          "position": 1
+        },
+        {
+          "id": 2,
+          "title": "Mauqetar en Angular",
+          "description": "version 9",
+          "commentary": [
+            {
+              "idUser": 1,
+              "detail": "no olvidar sesión fotografica"
+            }
+          ],
+          "position": 2
+        },
+        {
+          "id": 3,
+          "title": "añadir funcionalidad",
+          "description": "realiza la logica",
+          "commentary": [
+            {
+              "idUser": 1,
+              "detail": "aaaaa"
+            }
+          ],
+          "position": 3
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Pabel",
+      "lastName": "Cabanillas",
+      "email": "pabel17@gmail.com",
+      "imgURL": "https://cdn.superaficionados.com/imagenes/image-465-cke.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jhon ",
+      "lastName": "Doe",
+      "email": "jhon@gmail.com",
+      "imgURL": "https://cdn.superaficionados.com/imagenes/6-sasuke-uchiha-ambidiestro-cke.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Jane ",
+      "lastName": "Doe",
+      "email": "jane@gmail.com",
+      "imgURL": "https://i.pinimg.com/originals/39/62/55/39625575099d95c8c304b73e5fa6600a.jpg"
+    }
+  ]
+}

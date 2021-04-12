@@ -1,0 +1,6 @@
+instalar:
+
+npm install -g json.server 
+
+Ejecutar:
+server > json-server --watch db.json
